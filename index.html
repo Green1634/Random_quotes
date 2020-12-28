@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <style>
+
+#head {
+    font-weight: 800;
+        font-size: larger ;
+        font-stretch: expanded;
+        font-family: 'Grandstander', cursive;
+        margin-top: 2em;
+}
+
+body {
+    background-image: url(img/try.jpg);
+    background-repeat: no-repeat;
+    opacity: 1;
+    font-size: large;
+    font-weight: bolder;
+    padding: 4em;
+    
+    
+}
+
+#display {
+    font-family: cursive;
+}
+
+p {
+    padding-top: 5em;
+}
+
+h1 {
+    padding-bottom: 0.5em;
+}
+    </style>
+   
+</head>
+
+<body>
+    <div class="container white-text">
+
+        <h1 class="center-align" id="head"> Beautiful Quotes to get you Inspire </h1> 
+        
+        
+        <p id="display" class="container center-align"> </p> 
+        
+
+       <div id="tr" class="right-align" > <button id="head" onclick="senQuotes();" class="btn grey"> New Quote</button> </div>
+    
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="quotes.js"></script>
+
+</body>
+</html>
